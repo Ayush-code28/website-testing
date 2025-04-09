@@ -1,0 +1,75 @@
+* {
+    
+    padding:0;
+    margin: 0;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+.pics{
+    img{
+        margin-left: 20%;
+    text-align: center;
+    border: 2px solid black;
+    }
+}
+header > h1 {
+    /* font-family: win */
+    font-family: "Winky Sans", sans-serif;
+    text-align: center;
+}
+body {
+    background-color: rgb(211, 234, 242);
+}
+/* h1 {
+    text-align: center;
+} */
+ 
+
+.videos{
+    margin: 45%;
+    border: 2px solid #010c10;
+    border-radius: 8px;
+    overflow:visible;
+   background: transparent;
+    box-shadow: olive 100px 100px rgba(224, 8, 8, 0.1);
+    width: 255px; 
+    text-align: center;
+    align-content:center;
+}
+.desidog{
+    padding: 25%;
+    img {
+        box-sizing: border-box;
+        border-style: dashed;
+        border-radius:50%;
+        /* border-bottom-right-radius: 30%;
+        border-bottom-left-radius: 30%; */
+
+        margin-top: 20vh;
+        /* margin: 5%; */
+        /* margin-left: 200px; */
+        height: 300px;
+        width: 300px;
+        
+    }    
+}
+#text2{ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(163, 16, 72);
+    text-decoration: underline;
+    form{
+        background-color: grey;
+    }
+text-align: center;
+display: inline-block;
+}
+
+/* .winky-sans-<uniquifier> {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+  .testinfont{
+    font-family: "Winky Sans", sans-serif
+  }

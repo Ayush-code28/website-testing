@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing display properties</title>
+    <style>
+        *{
+            margin:0vh;
+
+        }
+        .box{
+            border: .3vh solid black;
+            /* -webkit-text-fill-color: transparent; */
+            background-color: pink;
+            /* display: inline-block; */
+        }
+        .inline{
+            display: inline-block;
+            display: inline-flex;
+            margin: 5vh;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box inline">
+        this is div 1
+    </div>
+    <div class="box2 inline box">
+        this is the 2nd div.
+    </div>
+    <span>
+        this the span 
+    </span>
+    
+</body>
+</html>
